@@ -1,0 +1,70 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("/image/mountain2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+        font-family: 'Overlock', sans-serif;
+}
+
+#menu{
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    background-color: rgba(7, 18, 30,0.7);
+    padding: 5px;
+    margin-left: -1%;
+}
+#menu span:nth-child(1)
+{
+    margin-left: 35%;
+}
+#menu span
+{
+margin-left: 10%;
+}
+
+#menu span:hover
+{
+color: #2760F1;    
+}
+#nav span:nth-child(1){
+margin-top: 40px;    
+}
+
+#nav span a {
+    text-decoration: none;
+    color: #275FF0;
+    margin-top: 15px;
+    display: block;
+}
+#nav span {
+    text-decoration: none;
+    
+    margin-top: 15px;
+    display: block;
+}
+#nav
+{
+position: absolute;
+    padding-top: 1%;
+    padding-left: 1%;
+margin-top: 7%; 
+margin-left: 10%;
+width: 100px;
+height: 70%;
+background-color: white;
+border-radius: 10px;
+}
+#main {
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 19%; 
+    margin-top: 7%;
+    background-color: white;
+}
